@@ -1,0 +1,16 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+#header{
+	height: 50px;
+	background: $body-bg;
+	overflow: hidden;
+	ul{
+		// float: right;
+		margin:15px 50px auto auto;
+		li{
+			float: left;
+			padding:0 20px;
+		}
+	}
+}

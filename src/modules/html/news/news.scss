@@ -1,0 +1,12 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+#news{
+	ul{
+		li{
+			a{
+				color: red;
+				padding: 10px 20px;
+			}
+		}
+	}
+}
