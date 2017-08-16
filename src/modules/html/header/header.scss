@@ -2,15 +2,73 @@
 @import "../../css/mixins.scss";
 
 #header{
-	// height: 50px;
-	background: $body-bg;
-	// overflow: hidden;
-	ul{
-		// float: right;
-		margin:15px 50px auto auto;
-		li{
+	background: #f7f6f2;
+	.container {
+//		background: yellowgreen;
+		>a {
 			float: left;
-			padding:0 20px;
+			line-height: 60px;
+			img {
+				vertical-align: middle;
+			}
+		}
+		.nav {
+			float: right;
+			margin-right: 18px;
+			.nav_box {
+				>li {
+					float: left;
+					a {
+						padding-left: 16px;
+						padding-right: 16px;
+						line-height: 60px;
+					}
+					.icon-login {
+						font-size: 18px;
+						padding-left: 36px;
+						padding-right: 36px;
+						line-height: 60px;
+					}
+				}
+				.investment {
+					ul {
+						position: absolute;
+						z-index: 1;
+						background: $white;
+						li {
+							display: none;
+							text-align: center;
+						}
+					}
+					&:hover {
+						li {
+							display: block;
+						}
+					}
+					
+				}
+				.login {
+					cursor: pointer;
+					ul {
+						display: none;
+						position: absolute;
+						z-index: 1;
+						background: $white;
+						li {
+							line-height: 28px;
+							text-align: center;
+							background: hotpink;
+							font-size: 14px;
+						}
+					}
+					&:hover {
+						ul {
+							display: block;
+							
+						}
+					}
+				}
+			}
 		}
 	}
 }
