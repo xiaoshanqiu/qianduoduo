@@ -1,0 +1,64 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.client{
+	padding: 70px 0;
+	font-size: 16px;
+	background: $body-bg;
+	.aisde{
+		box-sizing:border-box;
+		padding: 35px 40px;
+		width: 290px;
+		height: 320px;
+		background-color: $white;
+		border-radius: $padding-base;
+	}
+	.list{
+		margin-top: 30px;
+		height: auto;
+	}
+	
+	.list-menu{
+		position: relative;
+		line-height: 30px;
+		span{
+			position: absolute;
+			right: 0;
+			top: 2px;
+			font-family: $font-family-more;
+			transition: 300ms;
+		}
+		.dropdown{
+			display: none;			
+			box-sizing: border-box;
+			padding-left: 10px;
+			a{
+				display: block;
+			}
+		}
+		&:hover .dropdown{
+			display: block;
+		}
+		&:hover span{
+			transform:rotate(90deg);
+		}
+	}
+
+	.content{
+		box-sizing: border-box;
+		padding: 20px;
+		width: 850px;
+		min-height: 600px;
+		border-radius: $padding-base;
+		background-color: $white;
+		h3.title{
+			margin: 0;
+			padding-bottom: 20px;
+			font-weight: 400;
+			border-bottom: 1px solid $body-bg;
+		}
+		.content-box{
+			padding: 40px;
+		}
+	}
+}
