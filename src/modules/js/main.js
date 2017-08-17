@@ -19,7 +19,10 @@ var about = {
 	init: function(num) {
 		require(['jquery'],function($){
 			$(document).ready(function(){
-				// console.log(num)
+					$(".list-coo li").mouseover(function(){
+						var index = $(this).index();
+						$(".list-pic li").eq(index).show().siblings().hide()
+					})				
 			})
 		})
 	}

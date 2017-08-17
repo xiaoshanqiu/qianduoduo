@@ -1,0 +1,58 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+html,body{
+	background:$body-bg;
+}
+
+.content{
+			background:#fff;
+			border-radius:10px;
+		h2{
+			height: 58px;
+			padding-left:42px;
+			line-height: 58px;
+			margin-bottom:0;
+			font-weight:normal;
+			border-bottom:1px solid $body-bg;
+		}
+		.list-coo{
+			width: 1000px;
+			margin:15px auto 0;
+			li{
+				float:left;
+				margin-right:30px;
+				width:299px;
+				height:99px;
+				font-size: 18px;
+				line-height: 99px;
+				text-align: center;
+				border:1px solid #ccc;
+				&:last-child{
+					margin-right:0;
+				}
+				&:hover{
+					box-shadow: 0 0 25px #888; 
+					color:$brand;
+					transition:1s ;
+				}
+			}
+		}
+		.list-pic{
+			margin-top:40px;
+			li{
+				float:left;
+				display: none;
+				padding-bottom:70px;
+				img{
+					width:302px;
+					display: block;
+					margin:0 auto 40px;
+				}
+				p{
+					padding:0 100px;
+					text-indent: 2em;
+				}
+			}
+		}
+	}
+

@@ -1,6 +1,31 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
+html,body{
+	background:$body-bg;
+}
 
-.about{
-	display: flex;
+.content{
+		background:#fff;
+		border-radius:10px;
+	h2{
+		height: 58px;
+		padding-left:42px;
+		line-height: 58px;
+		font-weight:normal;
+		border-bottom:1px solid $body-bg;
+
+	}
+	.pic{
+		margin-top:39px;
+		img{
+			display: block;
+			margin:0 auto;
+		}
+	}
+	.introduction{
+		padding:40px 42px 60px;
+		p{
+			text-indent: 2em;
+		}
+	}
 }
