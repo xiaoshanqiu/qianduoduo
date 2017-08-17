@@ -1,0 +1,67 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.bulletin_wrapper{
+	padding-top: 70px;
+	padding-bottom: 60px;
+  background-color: $body-bg;
+  .bulletin_nav{
+  	padding: 20px 20px 20px 40px;
+  	box-sizing: border-box;
+  	width: 290px;
+  	line-height: 35px;
+  	border-radius: 8px;
+   	background-color: $white;
+   	.list_sonone{
+   		margin-left: 15px;
+   		overflow: hidden;
+   		.list_tilte1{
+   			display: block;
+   		}
+   	}
+   	.list_sontwo{
+   		margin-left: 15px;
+   		overflow: hidden;
+   		.list_tilte2{
+   			display: block;
+   		}
+   	}
+  }
+  .bulletin_detail{
+  	margin-left: 70px;
+  	width: 800px;
+  	font-size: 15px;
+  	background-color: $white;
+  	border-radius: 8px;
+  	h2{
+  		margin: 0;
+  		padding-left: 38px;
+  		box-sizing:border-box;
+  		font-size: 20px;
+  		font-weight: 500;
+  		line-height: 60px;
+  		border-bottom: 1px solid $body-bg;
+  	}
+  	ul{
+  		padding: 0 50px 40px 80px;
+  		box-sizing: border-box;
+  		li{
+  			line-height: 80px;
+  			border-bottom: 1px solid $body-bg;
+  			p{
+  				line-height: 20px;
+  			}
+  			.detail{
+  				display: none;
+  				.pic1{
+  					width: 680px;
+  					img{
+  						height: 100%;
+  						width: 100%;
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}
