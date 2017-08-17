@@ -1,0 +1,26 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.aboutHeader{
+	ul{
+		font-size: 0;
+		margin-top:30px;
+		margin-bottom:30px;
+		li{
+			display: inline-block;
+			margin-right: 50px;
+			font-size: 18px;
+			&:hover{
+				border-bottom:2px solid $brand;
+				color:$brand;
+			}
+			&:first-child{
+				border-bottom:2px solid $brand;
+			}
+			a{
+				display: block;
+				padding:15px 0;
+			}
+		}
+	}
+}
