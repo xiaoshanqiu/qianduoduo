@@ -6,7 +6,7 @@
 	p{
 		margin: 0;
 	}
-	.banner{
+	.index_banner{
 		position: relative;
 		height: 1020px;
 		background-image: url(images/index-banner.jpg);
@@ -72,7 +72,7 @@
 			}
 		}
 	}
-	.guarantee{
+	.index_guarantee{
 		ul{
 			padding: 29px 70px;
 			li{
@@ -108,7 +108,7 @@
 			}
 		}
 	}
-	.inves_box{		
+	.index_inves_box{		
 		background-color: $body-bg;
 		.inves{
 			position: relative;
@@ -259,6 +259,7 @@
 				box-sizing: border-box;
 				overflow: hidden;
 				.dynamic_list{
+					position: relative;
 					margin-right: -50px;
 					font-size: 0;
 					white-space: nowrap;
@@ -334,6 +335,7 @@
 					width: 100%;
 					overflow: hidden;
 					.company_list{
+						position: relative;
 						margin-right: -43px;
 						font-size: 0;
 						white-space: nowrap;

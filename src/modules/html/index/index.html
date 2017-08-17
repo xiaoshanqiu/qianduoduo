@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="index.scss">
 
 <div class="index">
-	<div class="banner">
+	<div class="index_banner">
 		<div class="banner-content wrapper">
 			<div class="life">
 				<p class="start">生活从这里开始</p>
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="guarantee wrapper">
+	<div class="index_guarantee wrapper">
 		<ul class="clearfix">
 			<li>
 				<div class="icon icon-airplanehollow">
@@ -69,7 +69,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="inves_box">		
+	<div class="index_inves_box">		
 		<div class="inves wrapper">		
 			<div class="index_title">
 				<p class="cn">投资专区</p>
@@ -125,9 +125,9 @@
 					<a class="action" href="">立即投资</a>
 				</li>
 			</ul>
-			<div class="more">
+			<a class="more" href="">
 				更多投资>>
-			</div>
+			</a>
 		</div>
 	</div>
 	<div class="index_news">
@@ -213,10 +213,26 @@
 							<a class="jump" href="">></a>
 						</div>
 					</li>
+					<li>
+						<a class="imag" href=""><img src="images/index_dyna1.jpg" alt=""></a>
+						<div class="desc">
+							<p class="environment">新的办公环境</p>
+							<p class="intro">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+							<a class="jump" href="">></a>
+						</div>
+					</li>
+					<li>
+						<a class="imag" href=""><img src="images/index_dyna1.jpg" alt=""></a>
+						<div class="desc">
+							<p class="environment">新的办公环境</p>
+							<p class="intro">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+							<a class="jump" href="">></a>
+						</div>
+					</li>
 				</ul>
 				<ul class="move">
-					<li class="move_l"><span><</span></li>
-					<li class="move_r"><span href="">></span></li>
+					<li class="move_l cli_l"><span><</span></li>
+					<li class="move_r cli_r"><span href="">></span></li>
 				</ul>
 			</div>
 			<div class="company wrapper">
@@ -229,7 +245,17 @@
 						</li>
 						<li>
 							<a href="">
-								<img src="images/index_company1.jpg" alt="">
+								<img src="images/index_company2.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/index_company3.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/index_company4.jpg" alt="">
 							</a>
 						</li>
 						<li>
@@ -239,18 +265,23 @@
 						</li>
 						<li>
 							<a href="">
-								<img src="images/index_company1.jpg" alt="">
+								<img src="images/index_company2.jpg" alt="">
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<img src="images/index_company1.jpg" alt="">
+								<img src="images/index_company3.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/index_company4.jpg" alt="">
 							</a>
 						</li>
 					</ul>
 					<ul class="move">
-						<li class="move_l"><span><</span></li>
-						<li class="move_r"><span href="">></span></li>
+						<li class="move_l cli_le"><span><</span></li>
+						<li class="move_r cli_ri"><span href="">></span></li>
 					</ul>
 				</div>
 			</div>
@@ -259,6 +290,6 @@
 </div>
 
 <script>
-	var index = require('js/main.js');
-	index.index.init(5);
+	var index = require('js/main');
+	index.index.init();
 </script>
