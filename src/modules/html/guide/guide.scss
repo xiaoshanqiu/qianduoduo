@@ -1,6 +1,82 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 
+.banner_new{
+	width: 100%;
+	height: 400px;
+	background: #F2F2F2 url(../../images/guide_banner_new.jpg) no-repeat center top;
+}
 .index{
-	// background: $brand;
+	width: 100%;
+	padding-top:100px;
+	background: #eeeeee;
+	.indexContent{
+		background: url(../../images/guide_slide_bg.png) no-repeat center top;
+		border-top: 1px solid transparent;
+		.inside_pics{
+			position: relative;
+			height: 389px;
+			width: 619px;
+			margin: 25px auto;
+			overflow: hidden;
+			// background: #999;
+			font-size: 0;
+			.pics{
+				position: absolute;
+				left: 0;
+				top: 0;
+				white-space: nowrap;
+				width: 3095px;
+				li{
+					float: left;
+				}
+			}
+		}
+		.btns{
+			padding: 100px 172px;
+			// background: red;
+			li{
+				float: left;
+				width: 123px;
+				margin-right: 60px;
+				cursor: pointer;
+				// background: #777;
+				&:last-child{
+					margin-right: 0;
+				}
+				text-align: center;
+				img{
+					&.btn_pic02{
+					display: none;
+					}
+				}
+				p{
+					margin: 0;
+					font-size: 16px;
+					line-height: 32px;
+					text-align: center;
+					// background: #000;
+				}
+			}
+		}
+
+	}
+	.invest{
+		// background: #000;
+		text-align: center;
+		a{
+			display: inline-block;
+			margin-bottom: 100px;
+			padding: 10px 30px;
+			border: none;
+			border-radius: 5px;
+			background: $brand;
+			font-size: 18px;
+			color: $white;
+			&:hover{
+				background: darkblue;
+			}
+			
+		}
+	}
 }
