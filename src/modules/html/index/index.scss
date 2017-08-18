@@ -2,5 +2,405 @@
 @import "../../css/mixins.scss";
 
 .index{
-	// background: $brand;
+	font-family: "iconfont";
+	p{
+		margin: 0;
+	}
+	.index_banner{
+		position: relative;
+		height: 1020px;
+		background-image: url(images/index-banner.jpg);
+		background-size: cover;
+		background-position: center;
+		.banner-content{
+			position: relative;
+			height: 100%;
+			.life{
+				position: absolute;
+				left: 100px;
+				top: 390px;
+				.start{
+					font-size: 52px;
+					color: $white;
+				}
+				.choose{
+					margin-top: 20px;
+					line-height: 32px;
+					font-size: 18px;
+					color: #ccc;
+				}
+				.login{
+					display: block;
+					margin-top: 30px;
+					width: 150px;
+					height: 52px;
+					line-height: 52px;
+					text-align: center;
+					font-size: 18px;
+					color: #666;
+					background-color: $white;
+					border-radius: 10px;
+				}
+			}
+		}
+		.money{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 220px;
+			font-size: 18px;
+			color: $white;
+			background-color: rgba(0,0,0,0.4);
+			.money-content{
+				ul{
+					li{
+						float: left;
+						width: 33%;
+						text-align: center;
+						.icon{
+							margin-top: 30px;
+						}
+						.sum{
+							margin: 12px 0;
+						}
+						.num{
+							font-size: 24px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.index_guarantee{
+		ul{
+			padding: 29px 70px;
+			li{
+				float: left;
+				width: 25%;
+				text-align: center;
+				.icon{
+					margin: 0 auto;
+					width: 100px;
+					height: 100px;
+					line-height: 100px;
+					font-size: 50px;
+					color: #448cf9;
+					border-radius: 50%;
+					border: 1px solid #448cf9;
+					&:hover{
+						color: $white;
+						background-color: #448cf9;
+					}
+				}
+				.funds{
+					margin-top: 20px;
+					line-height: 32px;
+					font-size: 18px;
+					color: $gray-dark;
+				}
+				.desc{
+					margin-top: 3px;
+					line-height: 21px;
+					font-size: 12px;
+					color: #666;
+				}
+			}
+		}
+	}
+	.index_inves_box{		
+		background-color: $body-bg;
+		.inves{
+			position: relative;
+			padding: 38px 0 120px;
+			.inves_list{
+				margin-top: 64px;
+				li{
+					float: left;
+					margin-right: 10px;
+					width: 290px;
+					height: 400px;
+					background-color: $white; 
+					border-radius: 4px;
+					overflow: hidden;
+					transition: all 0.5s ease 0s;
+					.name{
+						margin-top: 30px;
+						line-height: 27px;
+						text-align: center;
+						font-size: 18px;
+						color: $gray-dark;
+					}
+					.revenue{
+						text-align: center;
+						margin: 55px 0 35px;
+						.percent{
+							line-height: 25px;
+							font-size: 25px;
+							color: #ea463a;
+						}
+						.expected{
+							margin-top: 20px;
+							font-size: 12px;
+							color: #666;
+						}
+					}
+					.modus{
+						margin: 0 45px;
+						padding: 0 20px;
+						height: 40px;
+						line-height: 40px;
+						color: #000;
+						border-top: 1px solid #cccccc;
+						border-bottom: 1px solid #cccccc;
+					}
+					.action{
+						display: block;
+						margin: 67px auto;
+						width: 120px;
+						height: 32px;
+						line-height: 32px;
+						text-align: center;
+						color: $white;
+						background-color: $brand;
+						border-radius: 3px;
+					}
+					&:hover{
+						transform: scale(1.1);
+					}
+				}
+			}
+			.more{
+				position: absolute;
+				left: 50%;
+				bottom: 40px;
+				margin-left: -40px;
+				width: 80px;
+				text-align: center;
+				color: $gray-light;
+			}
+		}
+	}
+	.index_news{
+		position: relative;
+		padding: 40px 0 90px;
+		.news_list{
+			margin-top: 42px;
+			li{
+				float: left;
+				margin: 0 60px 38px 0;
+				width: 340px;
+				.date{
+					font-size: 24px;
+					color: #ccc;
+				}
+				.slogan{
+					position: relative;
+					padding: 25px 0 18px;
+					font-size: 16px;
+					&:after{
+						display: block;
+						content: "";
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						width: 10%;
+						height: 1px;
+						background-color: $body-bg;
+						transition: all 0.5s ease 0s;
+					}
+					&:hover{
+						&:after{
+							width: 100%;
+							background-color: #666;
+						}
+						color: $brand;
+					}
+				}
+				.intro{
+					margin: 24px 0;
+					line-height: 24px;
+					font-size: $font-size-small;
+					color: $brand-light-grey;
+				}
+			}
+		}
+		.more{
+			position: absolute;
+			left: 50%;
+			bottom: 40px;
+			margin-left: -35px;
+			display: block;
+			width: 68px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			font-size: 14px;
+			color: $brand-light-grey;
+			border: 1px solid $brand-light-grey;
+			border-radius: 2px;
+			&:hover{
+				&:hover{
+					border-color: $brand;
+					color: $brand;
+				}
+			}
+		}
+	}
+	.index_dynamic{
+		background-color: $body-bg;
+		.dynamic_wrapper{
+			box-sizing: border-box;
+			padding: 40px 0 120px;
+			.dynamic_list_box{
+				position: relative;
+				padding: 33px 0 88px;
+				width: 100%;
+				box-sizing: border-box;
+				overflow: hidden;
+				.dynamic_list{
+					position: relative;
+					margin-right: -50px;
+					font-size: 0;
+					white-space: nowrap;
+					li{
+						display: inline-block;
+						margin-right: 50px;
+						width: 575px;
+						.imag{
+							display: block;
+							width: 100%;
+							height: 200px;
+						}
+						.desc{
+							position: relative;
+							padding: 16px 60px 0 20px;						
+							.environment{
+								margin-bottom: 6px;
+								font-size: 16px;
+								color: $gray-dark;
+								&:hover{
+									color: $brand;
+								}
+							}
+							.intro{
+								font-size: 12px;
+								color: #666;
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+							}
+							.jump{
+								position: absolute;
+								right: 20px;
+								top: 20px;
+							}
+						}
+					}
+				}
+				.move{
+					li{
+						position: absolute;
+						top: 115px;
+						span{
+							display: block;
+							width: 30px;
+							height: 30px;
+							line-height: 30px;
+							text-align: center;
+							font-size: 20px;
+							color: $white;
+							border-radius: 2px;
+							background-color: rgba(0,0,0,0.1);
+							cursor: pointer;
+							&:hover{
+								background-color: $brand;
+							}
+						}
+					}
+					.move_l{
+						left: 10px;
+					}
+					.move_r{
+						right: 10px;
+					}
+				}
+			}
+			.company{
+				position: relative;
+				box-sizing: border-box;
+				padding: 0 130px;
+				.company_list_box{
+					box-sizing: border-box;
+					width: 100%;
+					overflow: hidden;
+					.company_list{
+						position: relative;
+						margin-right: -43px;
+						font-size: 0;
+						white-space: nowrap;
+						li{
+							display: inline-block;
+							margin-right: 43px;
+							a{
+								display: block;
+							}
+						}
+					}
+				}
+				.move{
+					li{
+						position: absolute;
+						top: 20px;
+						span{
+							display: block;
+							width: 30px;
+							height: 30px;
+							line-height: 30px;
+							text-align: center;
+							font-size: 20px;
+							color: $gray-dark;
+							cursor: pointer;
+							&:hover{
+								color: $brand;
+							}
+						}
+					}
+					.move_l{
+						left: 60px;
+					}
+					.move_r{
+						right: 60px;
+					}
+				}
+			}
+		}
+	}
+	.jump{
+		display: block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 20px;
+		color: $brand-light-grey;
+		border: 1px solid $brand-light-grey;
+		border-radius: 2px;
+		&:hover{
+			border-color: $brand;
+			color: $brand;
+		}
+	}
+	.index_title{
+		text-align: center;
+		.cn{
+			font-size: 18px;
+			color: $gray-dark;
+		}
+		.en{
+			margin-top: 10px;
+			font-size: 12px;
+			color: #666;
+		}
+	}
 }
