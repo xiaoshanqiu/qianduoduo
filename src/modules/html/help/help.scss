@@ -1,6 +1,150 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 
-.index{
-	// background: $brand;
+.help{
+	.help_banner{
+		width: 100%;
+		height: 400px;
+		box-shadow: 0 -3px 3px #00b3c0;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.help_guarantee{
+		height: 400px;
+		img{
+			margin-top: 40px;
+			width: 100%;
+			height: 296px;
+		}
+	}
+	.help_windctrl{
+		background-color: $body-bg;
+		.windctrl_description{
+    	margin-left: 60px;
+    	margin-bottom: 116px;
+    	h2{
+    		margin-top:50px;
+    		margin-bottom: 0;
+    		font-size: 50px;
+    		font-weight: 400;
+    		color: #333333;
+    	}
+    	p{
+    		margin: 0;
+    		line-height: 54px;
+    		font-size: 30px;
+    		color: #333333;
+    	}
+    	dl{
+    		margin: 0;
+    		font-size: 16px;
+    		dt{
+    			margin-top: 10px;
+    			margin-bottom: 15px;
+    			color: #333333;
+    		}
+    		dd{
+    			position: relative;
+    			margin-left: 0;
+    			margin-bottom: 10px;
+    			&::before{
+    				position: absolute;
+    				bottom: 0;
+    				left: -7px;
+    				display: table;
+    				content: ".";
+    			}
+    		}
+    	}
+		}
+		.windctrl_pic{
+			margin-right: 20px;
+			margin-top: 120px;
+     	height: 347px;
+     	width: 358px;
+     img{
+     	width: 100%;
+     	height: 100%;
+     }
+		}
+	}
+	.help_mechanism{
+		width: 100%;
+		text-align: right;
+		.mechanism-pic{
+			margin: 51px 0 145px 60px;
+		}
+		.mechanism_description{
+			h2{
+				margin-top: 50px;
+				margin-bottom: 0;
+				font-size: 50px;
+				font-weight: 400;
+			}
+			dl{
+				width: 458px;
+				font-size: 16px;
+				dt{
+					font-size: 30px;
+					line-height: 54px;
+				}
+			}
+		}
+	}
+	.help_websecurity{
+		padding-bottom: 60px;
+		background-color: $body-bg;
+		.websecurity_description{
+			margin-left: 60px;
+			h2{
+				margin-top: 50px;
+				margin-bottom: 0;
+				font-size: 50px;
+				font-weight: 400;
+			}
+			dl{
+				width: 458px;
+				font-size: 16px;
+				dt{
+					font-size: 30px;
+					line-height: 54px;
+				}
+				dd{
+				 margin-left: 0;
+				}
+			}
+		}
+		.websecurity_pic{
+			margin-top: 120px;
+		}
+	}
+	.help_compliance{
+		width: 100%;
+		text-align: right;
+		.ompliance_pic{
+			margin: 51px 0 145px 60px;
+		}
+		.compliance_description{
+			h2{
+					margin-top: 50px;
+					margin-bottom: 0;
+					font-size: 50px;
+					font-weight: 400;
+				}
+				dl{
+					width: 560px;
+					font-size: 15px;
+					dt{
+						font-size: 30px;
+						line-height: 54px;
+					}
+				}
+		}
+	}
+	.help_bg{
+		height: 58px;
+		background-color: $body-bg;
+	}
 }
