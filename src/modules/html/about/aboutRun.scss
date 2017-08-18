@@ -5,11 +5,12 @@ html,body{
 	background:$body-bg;
 }
 	.content{
+			margin-bottom:58px;
 			background:#fff;
 			border-radius:10px;
 		h2{
 			height: 58px;
-			padding-left:42px;
+			padding-left:32px;
 			line-height: 58px;
 			margin-bottom:0;
 			font-weight:normal;
@@ -17,14 +18,14 @@ html,body{
 
 		}
 		.introduction{
-			padding:40px 42px 0;
+			padding:37px 42px 0;
 			li{
-				line-height: 30px;
+				line-height: 38px;
 			}
 		}
 		.pic{
-			margin-top:80px;
-			padding-bottom:120px;
+			margin-top:139px;
+			padding-bottom:240px;
 			img{
 				display: block;
 				margin:0 auto;

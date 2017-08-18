@@ -5,11 +5,12 @@ html,body{
 }
 
 .content{
+		margin-bottom:58px;
 		background:#fff;
 		border-radius:10px;
 	h2{
 		height: 58px;
-		padding-left:42px;
+		padding-left:32px;
 		line-height: 58px;
 		font-weight:normal;
 		border-bottom:1px solid $body-bg;
@@ -23,7 +24,7 @@ html,body{
 		}
 	}
 	.introduction{
-		padding:40px 42px 60px;
+		padding:36px 40px 90px;
 		p{
 			text-indent: 2em;
 		}
