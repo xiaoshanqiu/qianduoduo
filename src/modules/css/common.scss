@@ -63,10 +63,9 @@ textarea {
   line-height: inherit;
 }
 
-a {
+a{
   color: $link-color;
   text-decoration: none;
-
   &:hover,
   &:focus {
     color: $link-hover-color;
