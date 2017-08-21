@@ -5,26 +5,27 @@ html,body{
 }
 
 .content{
+			margin-bottom:58px;
 			background:#fff;
 			border-radius:10px;
 		h2{
 			height: 58px;
-			padding-left:42px;
+			padding-left:32px;
 			line-height: 58px;
 			margin-bottom:0;
 			font-weight:normal;
 			border-bottom:1px solid $body-bg;
 		}
 		.list-coo{
-			width: 1000px;
-			margin:15px auto 0;
+			width: 950px;
+			margin:13px auto 0;
 			li{
 				float:left;
-				margin-right:30px;
+				margin-right:10px;
 				width:299px;
-				height:99px;
+				height:96px;
 				font-size: 18px;
-				line-height: 99px;
+				line-height: 96px;
 				text-align: center;
 				border:1px solid #ccc;
 				&:last-child{
@@ -38,18 +39,18 @@ html,body{
 			}
 		}
 		.list-pic{
-			margin-top:40px;
+			margin-top:58px;
 			li{
 				float:left;
 				display: none;
-				padding-bottom:70px;
+				padding-bottom:96px;
 				img{
 					width:302px;
 					display: block;
-					margin:0 auto 40px;
+					margin:0 auto 47px;
 				}
 				p{
-					padding:0 100px;
+					padding:0 142px;
 					text-indent: 2em;
 				}
 			}
